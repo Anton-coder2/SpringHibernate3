@@ -9,11 +9,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a10c262e-3677-49f6-acb0-e82dbcf6a46f" name="Changes" comment="" />
+    <list default="true" id="a10c262e-3677-49f6-acb0-e82dbcf6a46f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/554a9200-db0d-4149-9aa0-c9c3543f80b6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/554a9200-db0d-4149-9aa0-c9c3543f80b6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/554a9200-db0d-4149-9aa0-c9c3543f80b6/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/554a9200-db0d-4149-9aa0-c9c3543f80b6/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/controllers/PeopleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/dao/PersonDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/models/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringHibernate3/WEB-INF/classes/ru/alishev/springcourse/controllers/PeopleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringHibernate3/WEB-INF/classes/ru/alishev/springcourse/controllers/PeopleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringHibernate3/WEB-INF/classes/ru/alishev/springcourse/dao/PersonDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringHibernate3/WEB-INF/classes/ru/alishev/springcourse/models/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/alishev/springcourse/controllers/PeopleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/alishev/springcourse/controllers/PeopleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/alishev/springcourse/dao/PersonDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/alishev/springcourse/models/Person.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -25,7 +44,8 @@
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
@@ -48,6 +68,7 @@
     </option>
   </component>
   <component name="ProjectId" id="26jsMU77UDQ52PZgpvdQvQTWb7v" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -57,11 +78,25 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Asus\Desktop\Spring\SpringHibernate3\src\main\resources" />
+      <recent name="C:\Users\Asus\Desktop\Spring\SpringHibernate3\src\main\java" />
+      <recent name="C:\Users\Asus\Desktop\Spring\SpringHibernate3\src\main\webapp" />
       <recent name="C:\Users\Asus\Desktop\Spring\SpringHibernate3" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.alishev.springcourse.controllers" />
+      <recent name="ru.alishev.springcourse.dao" />
+      <recent name="ru.alishev.springcourse.models" />
+      <recent name="ru.alishev.springcourse.sessionFactory" />
     </key>
   </component>
   <component name="RunManager">
@@ -163,11 +198,23 @@
       <updated>1647948295628</updated>
       <workItem from="1647948297040" duration="879000" />
       <workItem from="1647950197778" duration="76000" />
-      <workItem from="1647950326422" duration="755000" />
+      <workItem from="1647950326422" duration="2528000" />
+      <workItem from="1647952912201" duration="6326000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
