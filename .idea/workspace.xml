@@ -10,21 +10,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a10c262e-3677-49f6-acb0-e82dbcf6a46f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/554a9200-db0d-4149-9aa0-c9c3543f80b6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/554a9200-db0d-4149-9aa0-c9c3543f80b6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/554a9200-db0d-4149-9aa0-c9c3543f80b6/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/554a9200-db0d-4149-9aa0-c9c3543f80b6/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4aa280df-94b0-4cf6-81f3-f85bc7ad7bbc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4aa280df-94b0-4cf6-81f3-f85bc7ad7bbc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/554a9200-db0d-4149-9aa0-c9c3543f80b6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/554a9200-db0d-4149-9aa0-c9c3543f80b6/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/554a9200-db0d-4149-9aa0-c9c3543f80b6/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/554a9200-db0d-4149-9aa0-c9c3543f80b6/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/554a9200-db0d-4149-9aa0-c9c3543f80b6/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/controllers/PeopleController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/dao/PersonDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/models/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/controllers/PeopleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/alishev/springcourse/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/SpringHibernate3/WEB-INF/classes/ru/alishev/springcourse/controllers/PeopleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringHibernate3/WEB-INF/classes/ru/alishev/springcourse/controllers/PeopleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringHibernate3/WEB-INF/classes/ru/alishev/springcourse/dao/PersonDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringHibernate3/WEB-INF/classes/ru/alishev/springcourse/models/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringHibernate3/WEB-INF/classes/ru/alishev/springcourse/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringHibernate3/WEB-INF/classes/ru/alishev/springcourse/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringHibernate3/WEB-INF/classes/ru/alishev/springcourse/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringHibernate3/WEB-INF/classes/ru/alishev/springcourse/models/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringHibernate3/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringHibernate3/WEB-INF/views/people/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ru/alishev/springcourse/controllers/PeopleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/alishev/springcourse/controllers/PeopleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/alishev/springcourse/dao/PersonDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/alishev/springcourse/models/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/alishev/springcourse/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/alishev/springcourse/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/alishev/springcourse/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/alishev/springcourse/models/User.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +202,8 @@
       <workItem from="1647948297040" duration="879000" />
       <workItem from="1647950197778" duration="76000" />
       <workItem from="1647950326422" duration="2528000" />
-      <workItem from="1647952912201" duration="6326000" />
+      <workItem from="1647952912201" duration="11865000" />
+      <workItem from="1648031810905" duration="1369000" />
     </task>
     <servers />
   </component>
@@ -211,7 +215,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="hibernate" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

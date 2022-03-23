@@ -53,25 +53,25 @@ public class PeopleController {
         return "redirect:/people";
     }
 
+
     @GetMapping("/{id}/edit")
     public String edit(Model model, @PathVariable("id") int id) {
-        model.addAttribute("user", userDao.show(id));
+        model.addAttribute("person", userDao.index().stream().filter(x -> x.getId()==id).findFirst().get());
         return "people/edit";
-
     }
 
     @PatchMapping("/{id}")
-    public String update(@ModelAttribute("user") @Valid User user, BindingResult bindingResult) {
+    public String update(@ModelAttribute("user") @Valid User user,@PathVariable("id") int id, BindingResult bindingResult) {
         if (bindingResult.hasErrors())
             return "people/edit";
-
+        user.setId(id);
         userDao.update(user);
         return "redirect:/people";
     }
 
     @DeleteMapping("/{id}")
     public String delete(@PathVariable("id") int id) {
-        userDao.delete(userDao.show(id-1));
+        userDao.delete(userDao.index().stream().filter(x -> x.getId()==id).findFirst().get());
         return "redirect:/people";
     }
 }

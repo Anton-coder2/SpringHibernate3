@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 import ru.alishev.springcourse.models.User;
 import ru.alishev.springcourse.sessionFactory.HibernateSessionFactoryUtil;
 
+import javax.management.Query;
 import java.util.List;
 
 @Component
@@ -31,7 +32,8 @@ public class UserDao {
     public void update(User user) {
         Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession();
         Transaction tx1 = session.beginTransaction();
-        session.update(user);
+        //session.update(user);
+        session.createQuery("update User set age='" + user.getAge() +"', name='" + user.getName() + "' where id = " + user.getId()).executeUpdate();
         tx1.commit();
         session.close();
     }
@@ -51,8 +53,4 @@ public class UserDao {
         tx1.commit();
         session.close();
     }
-
-
-
-
 }
