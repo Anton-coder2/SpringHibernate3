@@ -11,6 +11,8 @@ import ru.alishev.springcourse.models.User;
 
 import javax.validation.Valid;
 import java.sql.SQLException;
+import java.util.Comparator;
+import java.util.List;
 
 /**
  * @author Neil Alishev
@@ -28,7 +30,9 @@ public class PeopleController {
 
     @GetMapping()
     public String index(Model model) {
-        model.addAttribute("people", userDao.index());
+        List<User> userList = userDao.index();
+        userList.sort(Comparator.comparing(x -> x.getId()));
+        model.addAttribute("people", userList);
         return "people/index";
     }
 
@@ -44,11 +48,7 @@ public class PeopleController {
     }
 
     @PostMapping()
-    public String create(@ModelAttribute("user") @Valid User user,
-                         BindingResult bindingResult) throws SQLException {
-        if (bindingResult.hasErrors())
-            return "people/new";
-
+    public String create(User user) throws SQLException {
         userDao.save(user);
         return "redirect:/people";
     }
@@ -61,9 +61,7 @@ public class PeopleController {
     }
 
     @PatchMapping("/{id}")
-    public String update(@ModelAttribute("user") @Valid User user,@PathVariable("id") int id, BindingResult bindingResult) {
-        if (bindingResult.hasErrors())
-            return "people/edit";
+    public String update(User user, @PathVariable("id") int id) {
         user.setId(id);
         userDao.update(user);
         return "redirect:/people";
